@@ -1,0 +1,9 @@
+small {
+    font-size: 50%;
+    font-weight: bold;
+    color: rgb(8, 13, 255);
+}
+
+.pricing-header {
+    background-color: rgb(190, 168, 255);
+}
