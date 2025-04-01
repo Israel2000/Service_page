@@ -7,3 +7,26 @@ small {
 .pricing-header {
     background-color: rgb(190, 168, 255);
 }
+
+/* btn */
+.sample-link {
+    display: inline-block;
+    background-color: #007bff; /* Primary Blue */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+}
+
+.sample-link:hover {
+    background-color: #0056b3; /* Darker Blue */
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    color: rgb(247, 247, 247);
+    /* remove underline */
+    text-decoration: none;
+}
